@@ -13,13 +13,13 @@ Additionally, you are going to need to sign up for the [60-day free trial](https
 
 Firstly, you need to ensure the following `.env` variables are present in your project:
 ```env
-TF_VAR_ctp_project_key=
-TF_VAR_ctp_client_id=
-TF_VAR_ctp_client_secret=
-TF_VAR_ctp_scopes=
-TF_VAR_ctp_api_url=
-TF_VAR_ctp_auth_url=
-TF_VAR_ctp_debug=1
+ctp_project_key=
+ctp_client_id=
+ctp_client_secret=
+ctp_scopes=
+ctp_api_url=
+ctp_auth_url=
+ctp_debug=1
 ```
 
 Secondly, initialise `terraform`:
